@@ -1,0 +1,12 @@
+# Core
+torch>=2.0
+numpy
+pandas
+tqdm
+
+# Protein language models
+fair-esm            # ESM2 (imported as `esm`)
+tape-proteins       # TAPE tokenizer / UniRep (imported as `tape`)
+
+# Metrics
+torchmetrics

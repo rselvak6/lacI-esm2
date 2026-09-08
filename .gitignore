@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Large regenerated data tensors (see data/README.md)
+data/*.pkl
+data/mutations/*.pkl
+*.pt
+*.ckpt
+
+# Env
+.venv/
+.env
