@@ -2,7 +2,7 @@
 
 This repository contains my Ph.D. contribution towards 'A complete deep mutational map of the lactose repressor and quantification of allosteric communication' (Herde, (**Selvakumar**), et al., 2026; manuscript under revision at *Nature Communications*).
 
-In this work we evaluated zero-shot vs. fine-tuned ESM2 for **binary** and **multivariate** function prediction of the *lac* repressor (LacI). A **complete** experimental deep mutational scan of LacI and two **partial** scans of engineered LacI variants with inverted phenotype served as the ground truth. We trained top-layer (head), full, and contrastive fitness (ConFit) ESM2 fine-tuning strategies from 8M to 650M model size. Details of the tasks and training improvements are below.
+In this work we evaluated zero-shot vs. fine-tuned ESM2 for **binary** and **multivariate** function prediction of the *lac* repressor (LacI). A **complete** experimental deep mutational scan of LacI and two **partial** scans of engineered LacI variants with inverted phenotype served as the ground truth. We trained top-layer (head), full, and Bradley-Terry ESM2 fine-tuning strategies from 8M to 650M model size. Details of the tasks and training improvements are below.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rselvak6/lacI-esm2/blob/main/esm2.ipynb)
 
